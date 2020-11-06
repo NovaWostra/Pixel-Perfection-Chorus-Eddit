@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/weeping_vines", "weight": 90 },
+			{ "model": "block/weeping_vines/1", "weight": 60 },
+			{ "model": "block/weeping_vines/2", "weight": 30 },
+            { "model": "block/weeping_vines/3", "weight": 15 }
+		]
+    }
+}

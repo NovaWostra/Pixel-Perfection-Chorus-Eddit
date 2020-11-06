@@ -1,0 +1,68 @@
+{
+  "models": 
+  [
+    {
+      "model": "spider_leg.jpm",
+      "part": "leg1", 
+	  "attach": false,
+      "translate": [1, 1, -1],
+      "rotate": [-25, 0, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg2", 
+	  "attach": false,
+      "translate": [-1, 1, 1],
+      "rotate": [25, 180, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg3", 
+	  "attach": false,
+      "translate": [1, 1, -1],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg4", 
+	  "attach": false,
+      "translate": [-1, 1, 1],
+      "rotate": [0, 180, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg5", 
+	  "attach": false,
+      "translate": [1, 1, -1],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg6", 
+	  "attach": false,
+      "translate": [-1, 1, 1],
+      "rotate": [0, 180, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg7", 
+	  "attach": false,
+      "translate": [1, 1, -1],
+      "rotate": [25, 0, 0]
+    },
+	{
+      "model": "spider_leg.jpm",
+      "part": "leg8", 
+	  "attach": false,
+      "translate": [-1, 1, 1],
+      "rotate": [-25, 180, 0]
+    },  
+    {
+      "model": "spider_abdomen.jpm",
+      "part": "body", 
+	  "attach": false,
+      "translate": [ 8, 6.5, -9],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

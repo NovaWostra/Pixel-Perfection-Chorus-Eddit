@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "axis=y": [
+			{ "model": "block/crimson_stem" , "weight": 9},
+			{ "model": "block/stem/crimson/1" , "weight": 6},
+			{ "model": "block/stem/crimson/2" , "weight": 3}
+			
+		],
+        "axis=z": [
+			{ "model": "block/crimson_stem", "x": 90 , "weight": 9},
+			{ "model": "block/stem/crimson/1", "x": 90 , "weight": 6},
+			{ "model": "block/stem/crimson/2", "x": 90 , "weight": 3}
+		],	
+        "axis=x": [
+			{ "model": "block/crimson_stem", "x": 90, "y": 90 , "weight": 9},
+			{ "model": "block/stem/crimson/1", "x": 90, "y": 90 , "weight": 6},
+			{ "model": "block/stem/crimson/2", "x": 90, "y": 90 , "weight": 3}
+		],
+        "axis=none": { "model": "block/crimson_bark" , "weight": 9}
+    }
+}

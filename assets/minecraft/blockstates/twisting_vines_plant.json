@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/twisting_vines_plant", "weight": 90 },
+			{ "model": "block/twisting_vines_plant/1", "weight": 60 },
+			{ "model": "block/twisting_vines_plant/2", "weight": 30 },
+            { "model": "block/twisting_vines_plant/3", "weight": 15 }
+		]
+    }
+}

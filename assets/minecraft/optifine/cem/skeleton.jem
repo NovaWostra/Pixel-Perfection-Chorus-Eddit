@@ -1,0 +1,12 @@
+{
+  "models": 
+  [
+    {
+      "model": "skeleton_quiver.jpm",
+      "part": "body", 
+	  "attach": true,
+      "translate": [ 8, 12, -9],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

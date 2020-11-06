@@ -1,0 +1,23 @@
+{
+    "random.door_close": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "random/door_close"
+        ]
+    },
+    "random.door_open": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "random/door_open"
+        ]
+    },
+    "creeper.primed": {
+        "category": "hostile",
+        "replace": true,
+        "sounds": [
+            "random/creeperfuse"
+        ]
+    }
+}

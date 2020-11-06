@@ -1,0 +1,23 @@
+{
+  "comment": "cave_spider_butt flips top",
+  "texture": "cave_spider_butt",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "Butt",
+      "translate": [-3.0,-4.5,4.0],
+      "rotate": [-337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-10.0,-8.0,0.0,10.0,8.0,12.0],
+          "uvDown": [22,12,32,24],
+          "uvUp": [12,12,22,24],
+          "uvNorth": [12,24,22,32],
+          "uvSouth": [34,24,44,32],
+          "uvWest": [22,24,33,32],
+          "uvEast": [1,24,12,32]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "axis=y": [
+			{ "model": "block/warped_stem" , "weight": 9},
+			{ "model": "block/stem/warped/1" , "weight": 6},
+			{ "model": "block/stem/warped/2" , "weight": 3}
+			
+		],
+        "axis=z": [
+			{ "model": "block/warped_stem", "x": 90 , "weight": 9},
+			{ "model": "block/stem/warped/1", "x": 90 , "weight": 6},
+			{ "model": "block/stem/warped/2", "x": 90 , "weight": 3}
+		],	
+        "axis=x": [
+			{ "model": "block/warped_stem", "x": 90, "y": 90 , "weight": 9},
+			{ "model": "block/stem/warped/1", "x": 90, "y": 90 , "weight": 6},
+			{ "model": "block/stem/warped/2", "x": 90, "y": 90 , "weight": 3}
+		],
+        "axis=none": { "model": "block/warped_bark" , "weight": 9}
+    }
+}
