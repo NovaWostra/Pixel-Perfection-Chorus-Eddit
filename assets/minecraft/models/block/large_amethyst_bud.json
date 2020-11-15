@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"1": "block/amethyst_cluster_block",
+		"particle": "block/amethyst_cluster_block"
+	},
+	"elements": [
+		{
+			"name": "main_crystal",
+			"from": [-4.5, 0, 8],
+			"to": [-1.5, 10, 11],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4.5, 8, 22]},
+			"faces": {
+				"north": {"uv": [4, 6, 7, 16], "texture": "#1"},
+				"east": {"uv": [4, 6, 7, 16], "texture": "#1"},
+				"south": {"uv": [4, 6, 7, 16], "texture": "#1"},
+				"west": {"uv": [4, 6, 7, 16], "texture": "#1"},
+				"up": {"uv": [4, 3, 7, 6], "texture": "#1"},
+				"down": {"uv": [4, 3, 7, 6], "texture": "#1"}
+			}
+		},
+		{
+			"name": "1st_cristal",
+			"from": [7, -3, 11],
+			"to": [9, 0, 13],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [15, 5, 19]},
+			"faces": {
+				"north": {"uv": [11, 10, 13, 13], "texture": "#1"},
+				"east": {"uv": [11, 10, 13, 13], "texture": "#1"},
+				"south": {"uv": [11, 10, 13, 13], "texture": "#1"},
+				"west": {"uv": [11, 10, 13, 13], "texture": "#1"},
+				"up": {"uv": [11, 8, 13, 10], "texture": "#1"},
+				"down": {"uv": [11, 8, 13, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "2st_cristal",
+			"from": [11, -3, 7],
+			"to": [13, 2, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [19, 5, 16]},
+			"faces": {
+				"north": {"uv": [11, 10, 13, 15], "texture": "#1"},
+				"east": {"uv": [11, 10, 13, 15], "texture": "#1"},
+				"south": {"uv": [11, 10, 13, 15], "texture": "#1"},
+				"west": {"uv": [11, 10, 13, 15], "texture": "#1"},
+				"up": {"uv": [11, 8, 13, 10], "texture": "#1"},
+				"down": {"uv": [11, 8, 13, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "3st_cristal",
+			"from": [7, 2, 2],
+			"to": [9, 8, 4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [15, 10, 10]},
+			"faces": {
+				"north": {"uv": [11, 10, 13, 16], "texture": "#1"},
+				"east": {"uv": [11, 10, 13, 16], "texture": "#1"},
+				"south": {"uv": [11, 10, 13, 16], "texture": "#1"},
+				"west": {"uv": [11, 10, 13, 16], "texture": "#1"},
+				"up": {"uv": [11, 8, 13, 10], "texture": "#1"},
+				"down": {"uv": [11, 8, 13, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "4th_cristal",
+			"from": [2, 2, 7],
+			"to": [4, 6, 9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10, 10, 15]},
+			"faces": {
+				"north": {"uv": [11, 10, 13, 14], "texture": "#1"},
+				"east": {"uv": [11, 10, 13, 14], "texture": "#1"},
+				"south": {"uv": [11, 10, 13, 14], "texture": "#1"},
+				"west": {"uv": [11, 10, 13, 14], "texture": "#1"},
+				"up": {"uv": [11, 8, 13, 10], "texture": "#1"},
+				"down": {"uv": [11, 8, 13, 10], "texture": "#1"}
+			}
+		}
+	]
+}
