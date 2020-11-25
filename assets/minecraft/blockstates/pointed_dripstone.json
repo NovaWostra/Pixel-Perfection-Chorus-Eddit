@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "thickness=base,vertical_direction=down": [
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "x": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "x": 180, "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "x": 180, "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "x": 180, "y": 270}
+	],
+    "thickness=base,vertical_direction=up": [
+	{      "model": "minecraft:block/pointed_dripstone_up_base"},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_base", "y": 270}
+	],
+    "thickness=frustum,vertical_direction=down": [
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "x": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "x": 180, "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "x": 180, "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "x": 180, "y": 270}
+	],
+    "thickness=frustum,vertical_direction=up": [
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum"},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_frustum", "y": 270}
+	],
+    "thickness=middle,vertical_direction=down": [
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "x": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "x": 180, "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "x": 180, "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "x": 180, "y": 270}
+	],
+    "thickness=middle,vertical_direction=up": [
+	{      "model": "minecraft:block/pointed_dripstone_up_middle"},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_middle", "y": 270}
+	],
+    "thickness=tip,vertical_direction=down": [
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "x": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "x": 180, "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "x": 180, "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "x": 180, "y": 270} 
+	],
+    "thickness=tip,vertical_direction=up": [
+	{      "model": "minecraft:block/pointed_dripstone_up_tip"},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip", "y": 270}
+	],
+    "thickness=tip_merge,vertical_direction=down": [
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "x": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "x": 180, "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "x": 180, "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "x": 180, "y": 270}
+	],
+    "thickness=tip_merge,vertical_direction=up": [
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge"},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "y": 90},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "y": 180},
+	{      "model": "minecraft:block/pointed_dripstone_up_tip_merge", "y": 270}
+	]
+  }
+}
