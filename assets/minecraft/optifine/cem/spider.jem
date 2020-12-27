@@ -1,7 +1,7 @@
 {
-  "models": 
-  [
-    {
+	"textureSize": [64, 32],
+	"models": [
+		{
       "model": "spider_leg.jpm",
       "part": "leg1", 
 	  "attach": false,
@@ -56,13 +56,25 @@
 	  "attach": false,
       "translate": [-1, 1, 1],
       "rotate": [-25, 180, 0]
-    },  
-    {
-      "model": "spider_abdomen.jpm",
-      "part": "body", 
-	  "attach": false,
-      "translate": [ 8, 6.5, -9],
-      "rotate": [0, 0, 0]
-    }
-  ]
+    },
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, -9, 0],
+			"boxes": [
+				{"coordinates": [-3, 6, -3, 6, 6, 6], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -13, -3],
+			"rotate": [-25, 0, 0],
+			"boxes": [
+				{"coordinates": [-5, 9, 4, 10, 8, 12], "textureOffset": [0, 12]}
+			]
+		}
+	]
 }

@@ -1,5 +1,4 @@
 {
-	"texture": "zombie_villager_cem.png",
 	"textureSize": [64, 64],
 	"models": [
 		{
@@ -7,34 +6,24 @@
 			"id": "head",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"boxes": [
-				{"coordinates": [-4, 24, -4, 8, 10, 8], "textureOffset": [0, 0]},
-				{"coordinates": [-1, 23, -6, 2, 4, 2], "textureOffset": [24, 0]}
-			],
 			"submodels": [
 				{
 					"id": "brow",
 					"invertAxis": "xy",
-					"translate": [0, 24, 0],
-					"boxes": [
-						{"coordinates": [1, 4, -4.2, 2, 1, 1], "textureOffset": [0, 0]},
-						{"coordinates": [-3, 4, -4.2, 2, 1, 1], "textureOffset": [0, 0]}
-					]
+					"translate": [0, 24, 0]
 				},
 				{
 					"id": "eye",
 					"invertAxis": "xy",
-					"translate": [0, 24, 0],
-					"boxes": [
-						{"coordinates": [1.5, 3.25, -4.1, 1, 1, 1], "textureOffset": [0, 2]},
-						{"coordinates": [-2.5, 3.25, -4.1, 1, 1, 1], "textureOffset": [0, 2]}
-					]
+					"translate": [0, 24, 0]
 				}
 			],
 			"animations": [
 				{
 					"brow.ty": "-24.25 + clamp(head_pitch/5, -0.25 , 0.25)",
 					"eye.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
+					"left_arm.ty": "3 + sin(limb_swing)/1.5",
+					"right_arm.ty": "3 + sin(limb_swing)/1.5",
 					"eye.ty": "-24   + clamp(head_pitch/40, -0.25, 0.25)"
 				}
 			]
@@ -44,18 +33,12 @@
 			"id": "headwear",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"boxes": [
-				{"coordinates": [-4, 24, -4, 8, 10, 8], "textureOffset": [32, 0], "sizeAdd": 0.25}
-			],
 			"submodels": [
 				{
 					"id": "rotation",
 					"invertAxis": "xy",
 					"translate": [0, 24, 0],
-					"rotate": [90, 0, 0],
-					"boxes": [
-						{"coordinates": [-8, -8, -6, 16, 16, 1], "textureOffset": [30, 47]}
-					]
+					"rotate": [90, 0, 0]
 				}
 			]
 		},
@@ -64,9 +47,76 @@
 			"id": "body",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"boxes": [
-				{"coordinates": [-4, 12, -3, 8, 12, 6], "textureOffset": [16, 20]},
-				{"coordinates": [-4, 6, -3, 8, 18, 6], "textureOffset": [0, 38], "sizeAdd": 0.5}
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [-4, -12, -3, 8, 12, 6], "textureOffset": [16, 20]},
+						{"coordinates": [-4, -18, -3, 8, 18, 6], "textureOffset": [0, 38], "sizeAdd": 0.5}
+					],
+					"submodels": [
+						{
+							"id": "head2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 10, 8], "textureOffset": [0, 0]},
+								{"coordinates": [-1, -1, -6, 2, 4, 2], "textureOffset": [24, 0]}
+							],
+							"submodels": [
+								{
+									"id": "brow2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [1, 4, -4.2, 2, 1, 1], "textureOffset": [0, 0]},
+										{"coordinates": [-3, 4, -4.2, 2, 1, 1], "textureOffset": [0, 0]}
+									]
+								},
+								{
+									"id": "eye2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [1.5, 3.25, -4.1, 1, 1, 1], "textureOffset": [0, 2]},
+										{"coordinates": [-2.5, 3.25, -4.1, 1, 1, 1], "textureOffset": [0, 2]}
+									]
+								},
+								{
+									"id": "headwear2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-4, 0, -4, 8, 10, 8], "textureOffset": [32, 0], "sizeAdd": 0.25}
+									],
+									"submodels": [
+										{
+											"id": "rotation2",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"rotate": [90, 0, 0],
+											"boxes": [
+												{"coordinates": [-8, -8, -6, 16, 16, 1], "textureOffset": [30, 47]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"brow2.ty": "-0.25 + clamp(head_pitch/5, -0.30 , 0.25)",
+					"eye2.tx": "        clamp(-head_yaw/100, -0.25, 0.25)",
+					"eye2.ty": "0   + clamp(head_pitch/40, -0.25, 0.25)",
+					"body2.ty": "-24 + sin(limb_swing)/1.5"
+				}
 			]
 		},
 		{

@@ -59,6 +59,18 @@
 			"translate": [0, -24, 0],
 			"boxes": [
 				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]}
+			],
+			"submodels": [
+				{
+					"id": "quiver",
+					"invertAxis": "xy",
+					"translate": [-7, 26, 0],
+					"rotate": [0, 0, 45],
+					"boxes": [
+						{"coordinates": [-2, -14, 2.1, 4, 8, 3], "textureOffset": [48, 21]},
+						{"coordinates": [-1.5, -6, 3.6, 3, 4, 0], "textureOffset": [51, 17]}
+					]
+				}
 			]
 		},
 		{
