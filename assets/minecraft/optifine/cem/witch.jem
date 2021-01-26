@@ -75,15 +75,15 @@
 								{
 									"id": "nose2",
 									"invertAxis": "xy",
-									"translate": [0, 2, 0],
+									"translate": [0, 2, -4],
 									"boxes": [
-										{"coordinates": [-1, -3, -6, 2, 4, 2], "textureOffset": [24, 0]}
+										{"coordinates": [-1, -3, -2, 2, 4, 2], "textureOffset": [24, 0]}
 									],
 									"submodels": [
 										{
 											"id": "mole2",
 											"invertAxis": "xy",
-											"translate": [0, 2, 0],
+											"translate": [0, 2, 4],
 											"boxes": [
 												{"coordinates": [-1, -4, -6.75, 1, 1, 1], "textureOffset": [0, 0], "sizeAdd": -0.25}
 											]

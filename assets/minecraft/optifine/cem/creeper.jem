@@ -91,13 +91,23 @@
 			"animations": [
 				{
 					"leg5.rx": "leg1.rx",
+					"leg5.ry": "torad(22.5)",
+					"leg5.tz": "1.5 + sin(limb_swing)",
 					"leg6.rx": "-leg1.rx",
+					"leg6.ry": "torad(-22.5)",
+					"leg6.tz": "1.5 + (-sin(limb_swing))",
 					"leg7.rx": "-leg1.rx",
+					"leg7.ry": "torad(-22.5)",
+					"leg7.tz": "-1.5 + (-sin(limb_swing))",
 					"leg8.rx": "leg1.rx",
-					"neck.rx": "(-sin(limb_swing)*limb_speed)/3",
+					"leg8.ry": "torad(22.5)",
+					"leg8.tz": "-1.5 + sin(limb_swing)",
+					"head.rx": "-((torad(6) + sin(limb_swing / 0.75)/6) * limb_speed)",
+					"head.rz": "-(sin(limb_swing / 1.5)/40 * limb_speed)",
 					"head2.rx": "head.rx",
 					"head2.ry": "head.ry",
-					"body2.rx": "(sin(limb_swing)*limb_speed)/3",
+					"body2.rx": "(torad(6) + sin(limb_swing / 0.75)/6) * limb_speed",
+					"body2.rz": "sin(limb_swing / 1.5)/40 * limb_speed",
 					"eye.tx": "        clamp(-head_yaw/100, -0.25, 0.25)",
 					"eye.ty": "    clamp(head_pitch/40, -0.25, 0.25)"
 				}

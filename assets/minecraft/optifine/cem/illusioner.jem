@@ -130,6 +130,7 @@
 					"eye2.tx": "        clamp(-head_yaw/100, -0.25, 0.25)",
 					"eye2.ty": "0   + clamp(head_pitch/40, -0.25, 0.25)",
 					"body2.ty": "-24 + sin(limb_swing)/1.5",
+					"head.ty": "sin(limb_swing)/1.5",
 					"right_arm.ty": "3 + sin(limb_swing)/1.5",
 					"left_arm.ty": "3 + sin(limb_swing)/1.5"
 				}

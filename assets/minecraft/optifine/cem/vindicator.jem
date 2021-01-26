@@ -39,7 +39,8 @@
 					"eye.ty": "-24   + clamp(head_pitch/40, -0.25, 0.25)",
 					"arms.ty": "3 + sin(limb_swing)/1.5",
 					"right_arm.ty": "2 + sin(limb_swing)/1.5",
-					"left_arm.ty": "2 + sin(limb_swing)/1.5"
+					"left_arm.ty": "2 + sin(limb_swing)/1.5",
+					"left_arm.rx": "sin(torad(90) + limb_swing / 1.5) * limb_speed"
 				}
 			]
 		},
@@ -64,6 +65,24 @@
 						{"coordinates": [-4, -18, -3, 8, 18, 6], "textureOffset": [0, 38], "sizeAdd": 0.5}
 					],
 					"submodels": [
+						{
+							"id": "chest",
+							"invertAxis": "xy",
+							"translate": [0, -3, -2],
+							"rotate": [15, 0, 0],
+							"boxes": [
+								{"coordinates": [0.25, -2, -3, 4, 4, 3], "textureOffset": [28, 41]}
+							],
+							"submodels": [
+								{
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"boxes": [
+										{"coordinates": [-4.25, -2, -3, 4, 4, 3], "textureOffset": [28, 41]}
+									]
+								}
+							]
+						},
 						{
 							"id": "head2",
 							"invertAxis": "xy",
@@ -131,6 +150,7 @@
 					"eye2.ty": "0   + clamp(head_pitch/40, -0.25, 0.25)",
 					"body2.ty": "-24 + sin(limb_swing)/1.5",
 					"right_arm.ty": "3 + sin(limb_swing)/1.5",
+					"head.ty": "sin(limb_swing)/1.5",
 					"left_arm.ty": "3 + sin(limb_swing)/1.5"
 				}
 			]

@@ -87,9 +87,9 @@
 										{
 											"id": "left_arm3",
 											"invertAxis": "xy",
-											"translate": [0, -6, 0],
+											"translate": [0, -5, 0],
 											"boxes": [
-												{"coordinates": [-2, -4.5, -3, 4, 5, 6], "textureOffset": [80, 81]}
+												{"coordinates": [-2, -5.5, -3, 4, 5, 6], "textureOffset": [80, 81]}
 											],
 											"submodels": [
 												{
@@ -97,13 +97,13 @@
 													"invertAxis": "xy",
 													"translate": [0, -5, 0],
 													"boxes": [
-														{"coordinates": [-2, -4.5, -3, 4, 5, 6], "textureOffset": [80, 92]}
+														{"coordinates": [-2, -5.5, -3, 4, 5, 6], "textureOffset": [80, 92]}
 													],
 													"submodels": [
 														{
 															"id": "left_arm5",
 															"invertAxis": "xy",
-															"translate": [0, -4, 0],
+															"translate": [0, -5, 0],
 															"boxes": [
 																{"coordinates": [-2, -9.5, -3, 4, 9, 6], "textureOffset": [80, 103]}
 															]
@@ -151,9 +151,9 @@
 														{
 															"id": "right_arm5",
 															"invertAxis": "xy",
-															"translate": [0, -9, 0],
+															"translate": [0, -5, 0],
 															"boxes": [
-																{"coordinates": [-2, -5.5, -3, 4, 9, 6], "textureOffset": [108, 67]}
+																{"coordinates": [-2, -9.5, -3, 4, 9, 6], "textureOffset": [108, 67]}
 															]
 														}
 													]
@@ -170,12 +170,13 @@
 			"animations": [
 				{
 					"head2.rx": "head.rx",
-					"head2.ry": "head.ry",
+					"head2.ry": "head.ry/ 1.5",
 					"brow2.ty": "-4.5 + clamp(head_pitch/5, -0.5 , 0.5)",
-					"eye2.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
+					"eye2.tx": "        clamp(-head_yaw/100, -0.25, 0.25)",
 					"eye2.ty": "-5   + clamp(head_pitch/40, -0.25, 0.25)",
 					"head2.ty": "0.5 + sin(limb_swing)/-2",
-					"body2.ty": "-31 + sin(limb_swing)/-1.7",
+					"body2.ry": "head.ry / 4",
+					"body2.ty": "-31+ sin(limb_swing)/-2",
 					"left_arm1.rx": "(left_arm.rx)/2",
 					"left_arm2.rx": "(left_arm.rx)/4",
 					"left_arm3.rx": "(left_arm.rx)/6",
@@ -224,6 +225,8 @@
 					"brow.ty": "-35.5 + clamp(head_pitch/5, -0.5 , 0.5)",
 					"eye.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
 					"eye.ty": "-36   + clamp(head_pitch/40, -0.25, 0.25)",
+					"left_leg.tz": "(sin(limb_swing)*limb_speed)*2",
+					"right_leg.tz": "(-sin(limb_swing)*limb_speed)*2",
 					"left_arm.ty": "-7 + sin(limb_swing)/-1.5",
 					"right_arm.ty": "-7 + sin(limb_swing)/-1.5"
 				}
