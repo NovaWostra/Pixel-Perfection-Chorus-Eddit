@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/lodestone_top",
+    "north": "minecraft:block/lodestone_side_north",
+    "south": "minecraft:block/lodestone_side_south",
+    "east": "minecraft:block/lodestone_side_east",
+    "west": "minecraft:block/lodestone_side_west",
+    "up": "minecraft:block/lodestone_top",
+    "down": "minecraft:block/lodestone_top"
+  }
+}
