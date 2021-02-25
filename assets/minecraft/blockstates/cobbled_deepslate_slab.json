@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/cobbled_deepslate_slab" },
+			{ "model": "block/cobbled_deepslate/slab/l1" },
+			{ "model": "block/cobbled_deepslate/slab/l2" }
+		],
+        "type=top": [
+			{ "model": "block/cobbled_deepslate_slab_top" },
+			{ "model": "block/cobbled_deepslate/slab/u1" },
+			{ "model": "block/cobbled_deepslate/slab/u2" }		
+		],
+		"type=double": [
+			{ "model": "block/cobbled_deepslate" },
+			{ "model": "block/cobbled_deepslate/1" },
+			{ "model": "block/cobbled_deepslate/2" }
+		]
+    }
+}

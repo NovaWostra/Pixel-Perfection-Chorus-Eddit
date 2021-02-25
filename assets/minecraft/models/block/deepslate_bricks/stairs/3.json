@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "block/deepslate_bricks3",
+        "top": "block/deepslate_bricks3",
+        "side": "block/deepslate_bricks3"
+    }
+}
