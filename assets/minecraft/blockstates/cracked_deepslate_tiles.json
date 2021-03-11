@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/cracked_deepslate_tiles", "weight": 30 },
+			{ "model": "block/cracked_deepslate_tiles/1", "weight": 15 },
+            { "model": "block/cracked_deepslate_tiles/2", "weight": 15 },
+            { "model": "block/cracked_deepslate_tiles/3", "weight": 10 },
+			{ "model": "block/cracked_deepslate_tiles/4", "weight": 10 }
+		]
+    }
+}
