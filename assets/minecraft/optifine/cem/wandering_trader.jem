@@ -17,14 +17,6 @@
 					"invertAxis": "xy",
 					"translate": [0, 24, 0]
 				}
-			],
-			"animations": [
-				{
-					"brow.ty": "-24.25 + clamp(head_pitch/5, -0.25 , 0.25)",
-					"eye.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
-					"arms.ty": "3 + sin(limb_swing)/1.5",
-					"eye.ty": "-24   + clamp(head_pitch/40, -0.25, 0.25)"
-				}
 			]
 		},
 		{
@@ -86,30 +78,6 @@
 									"uvUp": [48, 8, 40, 0],
 									"uvDown": [56, 0, 48, 8],
 									"sizeAdd": 0.25
-								}
-							]
-						},
-						{
-							"id": "headwear4",
-							"invertAxis": "xy",
-							"translate": [0, 0, 0],
-							"submodels": [
-								{
-									"id": "rotation2",
-									"invertAxis": "xy",
-									"translate": [0, 0, 0],
-									"rotate": [90, 0, 0],
-									"boxes": [
-										{
-											"coordinates": [-8, -8, -6, 16, 16, 1],
-											"uvNorth": [31, 48, 47, 64],
-											"uvEast": [30, 48, 31, 64],
-											"uvSouth": [48, 48, 64, 64],
-											"uvWest": [47, 48, 48, 64],
-											"uvUp": [47, 48, 31, 47],
-											"uvDown": [63, 47, 47, 48]
-										}
-									]
 								}
 							]
 						},
@@ -195,16 +163,9 @@
 			],
 			"animations": [
 				{
+					"brow.ty": "-24.25 + clamp(head_pitch/5, -0.25 , 0.25)",
 					"head2.rx": "head.rx",
-					"head2.ry": "head.ry + head.rz",
-					"headwear3.rx": "head.rx",
-					"headwear3.ry": "head.ry + head.rz",
-					"headwear4.rx": "head.rx",
-					"headwear4.ry": "head.ry + head.rz",
-					"brow2.ty": "-0.25 + clamp(head_pitch/5, -0.30 , 0.25)",
-					"eye2.tx": "        clamp(-head_yaw/100, -0.25, 0.25)",
-					"eye2.ty": "0   + clamp(head_pitch/40, -0.25, 0.25)",
-					"body2.ty": "-24 + sin(limb_swing)/1.5"
+					"head2.ry": "head.ry + head.rz"
 				}
 			]
 		},
@@ -317,6 +278,13 @@
 					"rotation.rx": 0
 				}
 			]
+		},
+		{
+			"part": "body",
+			"model": "backpack.jpm",
+			"attach": "true",
+			"id": "backpack",
+			"translate": [0, 6, 3.5]
 		}
 	]
 }
