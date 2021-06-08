@@ -7,46 +7,7 @@
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
 			"boxes": [
-				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]},
-				{"coordinates": [-8, 28, -1, 4, 2, 2], "textureOffset": [48, 28]},
-				{"coordinates": [-8, 30, -1, 2, 2, 2], "textureOffset": [48, 24]}
-			],
-			"submodels": [
-				{
-					"id": "head_sub_0",
-					"invertAxis": "xy",
-					"translate": [0, 0, 0],
-					"mirrorTexture": "u",
-					"boxes": [
-						{"coordinates": [4, 28, -1, 4, 2, 2], "textureOffset": [48, 28]},
-						{"coordinates": [6, 30, -1, 2, 2, 2], "textureOffset": [48, 24]}
-					]
-				},
-				{
-					"id": "brow",
-					"invertAxis": "xy",
-					"translate": [0, 24, 0],
-					"boxes": [
-						{"coordinates": [1, 5, -4.2, 2, 1, 1], "textureOffset": [0, 0]},
-						{"coordinates": [-3, 5, -4.2, 2, 1, 1], "textureOffset": [0, 0]}
-					]
-				},
-				{
-					"id": "eye",
-					"invertAxis": "xy",
-					"translate": [0, 24, 0],
-					"boxes": [
-						{"coordinates": [1.5, 4, -4.1, 1, 1, 1], "textureOffset": [0, 2]},
-						{"coordinates": [-2.5, 4, -4.1, 1, 1, 1], "textureOffset": [0, 2]}
-					]
-				}
-			],
-			"animations": [
-				{
-					"brow.ty": "-24 + clamp(head_pitch/5, 0 , 0)",
-					"eye.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
-					"eye.ty": "-24   + clamp(head_pitch/40, -0.25, 0)"
-				}
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
 			]
 		},
 		{
@@ -104,6 +65,12 @@
 			"boxes": [
 				{"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [0, 16]}
 			]
-		}
+		},
+		{
+			"part": "head",
+			"model": "wither_skeleton_head.jpm",
+			"attach": "true",
+			"id": "head_part"
+		}		
 	]
 }

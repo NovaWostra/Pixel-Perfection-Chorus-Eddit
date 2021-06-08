@@ -1,0 +1,43 @@
+{
+	"texture": "textures/entity/skeleton/wither_skeleton_horns",
+	"textureSize": [16, 8],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [4, -6, -1, 4, 2, 2],
+			"uvNorth": [2, 6, 6, 8],
+			"uvEast": [0, 6, 2, 8],
+			"uvSouth": [8, 6, 12, 8],
+			"uvWest": [6, 6, 8, 8],
+			"uvUp": [6, 6, 2, 4],
+			"uvDown": [10, 4, 6, 6]
+		},
+		{
+			"coordinates": [6, -8, -1, 2, 2, 2],
+			"uvNorth": [2, 2, 4, 4],
+			"uvEast": [0, 2, 2, 4],
+			"uvSouth": [6, 2, 8, 4],
+			"uvWest": [4, 2, 6, 4],
+			"uvUp": [4, 2, 2, 0],
+			"uvDown": [6, 0, 4, 2]
+		},
+		{
+			"coordinates": [-8, -6, -1, 4, 2, 2],
+			"uvNorth": [6, 6, 2, 8],
+			"uvEast": [8, 6, 6, 8],
+			"uvSouth": [12, 6, 8, 8],
+			"uvWest": [2, 6, 0, 8],
+			"uvUp": [2, 6, 6, 4],
+			"uvDown": [6, 4, 10, 6]
+		},
+		{
+			"coordinates": [-8, -8, -1, 2, 2, 2],
+			"uvNorth": [4, 2, 2, 4],
+			"uvEast": [6, 2, 4, 4],
+			"uvSouth": [8, 2, 6, 4],
+			"uvWest": [2, 2, 0, 4],
+			"uvUp": [2, 2, 4, 0],
+			"uvDown": [4, 0, 6, 2]
+		}
+	]
+}
