@@ -225,8 +225,6 @@
 					"brow.ty": "-35.5 + clamp(head_pitch/5, -0.5 , 0.5)",
 					"eye.tx": "        clamp(-head_yaw/100, -0.5, 0.5)",
 					"eye.ty": "-36   + clamp(head_pitch/40, -0.25, 0.25)",
-					"left_leg.tz": "(sin(limb_swing)*limb_speed)*2",
-					"right_leg.tz": "(-sin(limb_swing)*limb_speed)*2",
 					"left_arm.ty": "-7 + sin(limb_swing)/-1.5",
 					"right_arm.ty": "-7 + sin(limb_swing)/-1.5"
 				}
@@ -243,32 +241,6 @@
 			"id": "left_arm",
 			"invertAxis": "xy",
 			"translate": [0, -31, 0]
-		},
-		{
-			"part": "right_leg",
-			"id": "right_leg",
-			"invertAxis": "xy",
-			"translate": [5, -13, 0],
-			"boxes": [
-				{"coordinates": [1.5, 0, -3, 6, 16, 5], "textureOffset": [37, 0]}
-			]
-		},
-		{
-			"part": "left_leg",
-			"id": "left_leg",
-			"invertAxis": "xy",
-			"translate": [-4, -13, 0],
-			"submodels": [
-				{
-					"id": "left_leg_sub_0",
-					"invertAxis": "xy",
-					"translate": [0, 0, 0],
-					"mirrorTexture": "u",
-					"boxes": [
-						{"coordinates": [-7.5, 0, -3, 6, 16, 5], "textureOffset": [60, 0]}
-					]
-				}
-			]
 		}
 	]
 }
