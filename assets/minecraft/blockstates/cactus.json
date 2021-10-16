@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/cactus", "weight": 60 },
+		{ "model": "block/cactus/1", "y": 90, "weight": 10 },
+		{ "model": "block/cactus/1", "y": 180, "weight": 5 },
+		{ "model": "block/cactus/1", "y": 270, "weight": 10 },
+		{ "model": "block/cactus/2", "y": 90, "weight": 5 },
+		{ "model": "block/cactus/2", "y": 180, "weight": 10 },
+		{ "model": "block/cactus/2", "y": 270, "weight": 5 }
+		]
+    }
+}
