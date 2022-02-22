@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+			{"model": "minecraft:block/warped_fungus"},
+			{"model": "minecraft:block/warped_fungus1"},
+			{"model": "minecraft:block/warped_fungus2"},
+			{"model": "minecraft:block/warped_fungus3"},
+			{"model": "minecraft:block/warped_fungus", "x": 0, "y": 180},
+			{"model": "minecraft:block/warped_fungus1", "x": 0, "y": 180},
+			{"model": "minecraft:block/warped_fungus2", "x": 0, "y": 180},
+			{"model": "minecraft:block/warped_fungus3", "x": 0, "y": 180},
+			{"model": "minecraft:block/warped_fungus", "x": 0, "y": 90},
+			{"model": "minecraft:block/warped_fungus1", "x": 0, "y": 90},
+			{"model": "minecraft:block/warped_fungus2", "x": 0, "y": 90},
+			{"model": "minecraft:block/warped_fungus3", "x": 0, "y": 90},
+			{"model": "minecraft:block/warped_fungus", "x": 0, "y": 270},
+			{"model": "minecraft:block/warped_fungus1", "x": 0, "y": 270},
+			{"model": "minecraft:block/warped_fungus2", "x": 0, "y": 270},
+			{"model": "minecraft:block/warped_fungus3", "x": 0, "y": 270}
+	]
+  }
+}

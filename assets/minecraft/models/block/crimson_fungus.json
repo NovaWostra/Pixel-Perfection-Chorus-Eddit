@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"0": "block/crimson_fungus_block",
+		"particle": "block/crimson_fungus_block"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [10, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 10, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 10, 4], "texture": "#0"},
+				"south": {"uv": [8, 0, 10, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 10, 4], "texture": "#0"},
+				"up": {"uv": [8, 4, 10, 6], "texture": "#0"},
+				"down": {"uv": [8, 4, 10, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 4, 5],
+			"to": [13, 7, 13],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 11], "texture": "#0"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#0"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 7, 6],
+			"to": [12, 10, 12],
+			"faces": {
+				"north": {"uv": [10, 13, 16, 16], "texture": "#0"},
+				"east": {"uv": [10, 13, 16, 16], "texture": "#0"},
+				"south": {"uv": [10, 13, 16, 16], "texture": "#0"},
+				"west": {"uv": [10, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [10, 7, 16, 13], "texture": "#0"},
+				"down": {"uv": [10, 7, 16, 13], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/deepslate_tile_slab" },
+			{ "model": "block/deepslate_tiles/slab/l1" },
+			{ "model": "block/deepslate_tiles/slab/l2" },
+			{ "model": "block/deepslate_tiles/slab/l3" },
+			{ "model": "block/deepslate_tiles/slab/l4" }
+		],
+        "type=top": [
+			{ "model": "block/deepslate_tile_slab_top" },
+			{ "model": "block/deepslate_tiles/slab/u1" },
+			{ "model": "block/deepslate_tiles/slab/u2" },
+			{ "model": "block/deepslate_tiles/slab/u3" },
+			{ "model": "block/deepslate_tiles/slab/u4" }
+		],
+        "type=double": [
+			{ "model": "block/deepslate_tiles/0" },
+			{ "model": "block/deepslate_tiles/1" },
+			{ "model": "block/deepslate_tiles/2" },
+			{ "model": "block/deepslate_tiles/3" },
+			{ "model": "block/deepslate_tiles/4" }
+		]
+    }
+}
