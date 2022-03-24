@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+			{"model": "minecraft:block/brown_mushroom"},
+			{"model": "minecraft:block/brown_mushroom1"},
+			{"model": "minecraft:block/brown_mushroom2"},
+			{"model": "minecraft:block/brown_mushroom3"},
+			{"model": "minecraft:block/brown_mushroom", "x": 0, "y": 180},
+			{"model": "minecraft:block/brown_mushroom1", "x": 0, "y": 180},
+			{"model": "minecraft:block/brown_mushroom2", "x": 0, "y": 180},
+			{"model": "minecraft:block/brown_mushroom3", "x": 0, "y": 180},
+			{"model": "minecraft:block/brown_mushroom", "x": 0, "y": 90},
+			{"model": "minecraft:block/brown_mushroom1", "x": 0, "y": 90},
+			{"model": "minecraft:block/brown_mushroom2", "x": 0, "y": 90},
+			{"model": "minecraft:block/brown_mushroom3", "x": 0, "y": 90},
+			{"model": "minecraft:block/brown_mushroom", "x": 0, "y": 270},
+			{"model": "minecraft:block/brown_mushroom1", "x": 0, "y": 270},
+			{"model": "minecraft:block/brown_mushroom2", "x": 0, "y": 270},
+			{"model": "minecraft:block/brown_mushroom3", "x": 0, "y": 270}
+	]
+  }
+}
