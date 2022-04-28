@@ -2,7 +2,7 @@ XSSheep's Pixel Perfection.
 Pure pixely goodness.
 (https://www.minecraftforum.net/members/XSSheep)
 
-Edited by Nova_Wostra to continiue use for 1.15 and 1.16
+Edited by Nova_Wostra to continiue use for 1.15 - 1.19
 (https://www.minecraftforum.net/members/Nova_Wostra)
 
 Using textures (for 1.14 and 1.13) and code from:
