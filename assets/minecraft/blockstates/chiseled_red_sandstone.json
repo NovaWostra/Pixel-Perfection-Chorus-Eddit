@@ -1,8 +1,32 @@
 {
     "variants": {
         "": [
-			{ "model": "block/chiseled_red_sandstone" },
-			{ "model": "block/sandstone/chiseled/red/1" }
+			{ "model": "block/sandstone/chiseled/red/a" },
+			{ "model": "block/sandstone/chiseled/red/b" },
+			{ "model": "block/sandstone/chiseled/red/c" },
+			{ "model": "block/sandstone/chiseled/red/d" },
+			{ "model": "block/sandstone/chiseled/red/e" },
+			{ "model": "block/sandstone/chiseled/red/f" },
+			{ "model": "block/sandstone/chiseled/red/g" },
+			{ "model": "block/sandstone/chiseled/red/h" },
+			{ "model": "block/sandstone/chiseled/red/i" },
+			{ "model": "block/sandstone/chiseled/red/j" },
+			{ "model": "block/sandstone/chiseled/red/k" },
+			{ "model": "block/sandstone/chiseled/red/l" },
+			{ "model": "block/sandstone/chiseled/red/m" },
+			{ "model": "block/sandstone/chiseled/red/n" },
+			{ "model": "block/sandstone/chiseled/red/o" },
+			{ "model": "block/sandstone/chiseled/red/p" },
+			{ "model": "block/sandstone/chiseled/red/q" },
+			{ "model": "block/sandstone/chiseled/red/r" },
+			{ "model": "block/sandstone/chiseled/red/s" },
+			{ "model": "block/sandstone/chiseled/red/t" },
+			{ "model": "block/sandstone/chiseled/red/u" },
+			{ "model": "block/sandstone/chiseled/red/v" },
+			{ "model": "block/sandstone/chiseled/red/w" },
+			{ "model": "block/sandstone/chiseled/red/x" },
+			{ "model": "block/sandstone/chiseled/red/y" },
+			{ "model": "block/sandstone/chiseled/red/z" }
 		]
     }
 }
