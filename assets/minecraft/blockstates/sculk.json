@@ -1,10 +1,22 @@
 {
     "variants": {
         "": [
-			{ "model": "block/skulk/4", "weight": 90  },
+			{ "model": "block/skulk/4", "weight": 90 },
+			{ "model": "block/skulk/4", "weight": 90 ,"y": 90,"x": 90},
+			{ "model": "block/skulk/4", "weight": 90 ,"y": 180,"x": 180},
+			{ "model": "block/skulk/4", "weight": 90 ,"y": 270,"x": 270},
 			{ "model": "block/skulk/1", "weight": 30  },
+			{ "model": "block/skulk/1", "weight": 30  ,"y": 90,"x": 90},
+			{ "model": "block/skulk/1", "weight": 30  ,"y": 180,"x": 180},
+			{ "model": "block/skulk/1", "weight": 30  ,"y": 270,"x": 270},
 			{ "model": "block/skulk/2", "weight": 15  },
-			{ "model": "block/skulk/3", "weight": 5  }
+			{ "model": "block/skulk/2", "weight": 15  ,"y": 90,"x": 90},
+			{ "model": "block/skulk/2", "weight": 15  ,"y": 180,"x": 180},
+			{ "model": "block/skulk/2", "weight": 15  ,"y": 270,"x": 270},
+			{ "model": "block/skulk/3", "weight": 5  },
+			{ "model": "block/skulk/3", "weight": 5  ,"y": 90,"x": 90},
+			{ "model": "block/skulk/3", "weight": 5  ,"y": 180,"x": 180},
+			{ "model": "block/skulk/3", "weight": 5  ,"y": 270,"x": 270}
 		]
     }
 }
