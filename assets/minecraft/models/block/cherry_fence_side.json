@@ -1,0 +1,8 @@
+{
+    "parent": "block/fence_side",
+    "textures": {
+        "texture": "block/cherry_fence_side",
+		"side": "block/cherry_fence_side",
+		"top": "block/cherry_fence_top"
+    }
+}
