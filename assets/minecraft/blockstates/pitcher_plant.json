@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "half=lower": [
+	{"model": "minecraft:block/pitcher_plant_bottom"},
+	{"model": "minecraft:block/pitcher_plant_bottom", "x": 0, "y": 180},
+	{"model": "minecraft:block/pitcher_plant_bottom", "x": 0, "y": 90},
+	{"model": "minecraft:block/pitcher_plant_bottom", "x": 0, "y": 270}
+	],
+    "half=upper": {"model": "minecraft:block/pitcher_plant_top"}
+  }
+}
