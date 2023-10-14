@@ -3,7 +3,7 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "block/fence_nether_bricks",
+		"1": "block/nether_brick_fence_side",
 		"2": "block/nether_brick_fence_top",
 		"particle": "block/nether_brick_fence_top"
 	},

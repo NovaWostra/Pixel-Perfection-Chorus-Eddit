@@ -19,5 +19,31 @@
         "sounds": [
             "random/creeperfuse"
         ]
-    }
+    },
+		"entity.endermite.ambient": {
+		"replace": true,
+		"sounds": [
+			"mob/endermite/idle1",
+			"mob/endermite/idle2",
+			"mob/endermite/idle3"
+		],
+		"subtitle": "subtitles.entity.endermite.ambient"
+	},
+	"entity.endermite.death": {
+		"replace": true,
+		"sounds": [
+			"mob/endermite/death1",
+			"mob/endermite/death2"
+		],
+		"subtitle": "subtitles.entity.endermite.death"
+	},
+	"entity.endermite.hurt": {
+		"replace": true,
+		"sounds": [
+			"mob/endermite/hurt1",
+			"mob/endermite/hurt2",
+			"mob/endermite/hurt3"
+		],
+		"subtitle": "subtitles.entity.endermite.hurt"
+	}
 }
