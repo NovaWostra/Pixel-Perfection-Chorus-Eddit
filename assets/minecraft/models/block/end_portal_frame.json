@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"bottom": "block/end_stone_bricks",
+		"bottom": "block/end_portal_frame_bottom",
 		"top": "block/end_portal_frame_top",
 		"particle": "block/end_portal_frame_side",
 		"side": "block/end_portal_frame_side"
