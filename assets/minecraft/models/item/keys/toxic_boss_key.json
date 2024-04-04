@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/ominous_trial_key",
+  "textures": {
+    "layer0": "minecraft:item/keys/toxic_boss_key"
+  }
+}

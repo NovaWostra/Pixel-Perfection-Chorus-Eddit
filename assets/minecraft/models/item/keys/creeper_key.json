@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/trial_key",
+  "textures": {
+    "layer0": "minecraft:item/keys/creeper_key"
+  }
+}

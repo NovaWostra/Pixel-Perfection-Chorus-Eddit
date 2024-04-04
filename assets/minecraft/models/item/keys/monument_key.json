@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/trial_key",
+  "textures": {
+    "layer0": "minecraft:item/keys/monument_key"
+  }
+}

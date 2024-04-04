@@ -1,0 +1,115 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "minecraft:item/ominous_trial_key"
+	},
+	"display": {
+	  "thirdperson_righthand": {
+		"rotation": [
+		  0,
+		  -90,
+		  180
+		],
+		"translation": [
+		  0,
+		  2.75,
+		  0
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "thirdperson_lefthand": {
+		"rotation": [
+		  0,
+		  90,
+		  180
+		],
+		"translation": [
+		  0,
+		  2.75,
+		  0
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "firstperson_righthand": {
+		"rotation": [
+		  180,
+		  -90,
+		  25
+		],
+		"translation": [
+		  1.13,
+		  4.25,
+		  1.13
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "firstperson_lefthand": {
+		"rotation": [
+		  130,
+		  90,
+		  25
+		],
+		"translation": [
+		  1.13,
+		  4.25,
+		  1.13
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  }
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 711
+		},
+		"model": "minecraft:item/keys/ominous_shrine_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 712
+		},
+		"model": "minecraft:item/keys/ominous_toxic_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 714
+		},
+		"model": "minecraft:item/keys/citadel_boss_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 716
+		},
+		"model": "minecraft:item/keys/monument_boss_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 720
+		},
+		"model": "minecraft:item/keys/end_ship_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 723
+		},
+		"model": "minecraft:item/keys/toxic_boss_key"
+	  }
+	]
+  }
+  

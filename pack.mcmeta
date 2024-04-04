@@ -1,9 +1,9 @@
 {
   "pack": {
-	"pack_format": 25,
+	"pack_format": 28,
 	"supported_formats": {
-            "min_inclusive": 14,
-            "max_inclusive": 20
+            "min_inclusive": 28,
+            "max_inclusive": 32767
         },
     "description": "XSSheep\u0027s and Nova Wostra\u0027s Pixel Perfection."
   },

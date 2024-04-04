@@ -1,0 +1,133 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "minecraft:item/trial_key"
+	},
+	"display": {
+	  "thirdperson_righthand": {
+		"rotation": [
+		  0,
+		  -90,
+		  180
+		],
+		"translation": [
+		  0,
+		  2.75,
+		  0
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "thirdperson_lefthand": {
+		"rotation": [
+		  0,
+		  90,
+		  180
+		],
+		"translation": [
+		  0,
+		  2.75,
+		  0
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "firstperson_righthand": {
+		"rotation": [
+		  180,
+		  -90,
+		  25
+		],
+		"translation": [
+		  1.13,
+		  4.25,
+		  1.13
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  },
+	  "firstperson_lefthand": {
+		"rotation": [
+		  130,
+		  90,
+		  25
+		],
+		"translation": [
+		  1.13,
+		  4.25,
+		  1.13
+		],
+		"scale": [
+		  0.5,
+		  0.5,
+		  0.5
+		]
+	  }
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 711
+		},
+		"model": "minecraft:item/keys/shrine_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 712
+		},
+		"model": "minecraft:item/keys/creeper_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 713
+		},
+		"model": "minecraft:item/keys/citadel_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 715
+		},
+		"model": "minecraft:item/keys/monument_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 717
+		},
+		"model": "minecraft:item/keys/donjon_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 718
+		},
+		"model": "minecraft:item/keys/outstation_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 719
+		},
+		"model": "minecraft:item/keys/nether_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 721
+		},
+		"model": "minecraft:item/keys/end_castle_key"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 722
+		},
+		"model": "minecraft:item/keys/toxic_key"
+	  }
+	]
+  }
+  
