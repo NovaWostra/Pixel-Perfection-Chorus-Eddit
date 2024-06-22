@@ -1,5 +1,5 @@
 {
-    "parent": "block/template_fence_gate_wall",
+    "parent": "block/template_fence_gate",
     "textures": {
         "texture": "block/dark_oak_fence_gate"
     }

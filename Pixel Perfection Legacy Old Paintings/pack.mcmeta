@@ -1,0 +1,28 @@
+{
+  "pack": {
+	"pack_format": 28,
+	"supported_formats": {
+            "min_inclusive": 28,
+            "max_inclusive": 32767
+        },
+    "description": "XSSheep\u0027s and Nova Wostra\u0027s Pixel Perfection."
+  },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "1.20",
+                "formats": {
+                    "min_inclusive": 15,
+                    "max_inclusive": 32767
+                }
+            },
+            {
+                "directory": "1.21",
+                "formats": {
+                    "min_inclusive": 19,
+                    "max_inclusive": 32767
+                }
+            }
+        ]
+    }
+}
