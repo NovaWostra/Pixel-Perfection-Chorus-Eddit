@@ -1,7 +1,7 @@
 #version 150
 
-#moj_import <light.glsl>
-#moj_import <fog.glsl>
+#moj_import <minecraft:light.glsl>
+#moj_import <minecraft:fog.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -15,6 +15,7 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
+uniform mat4 TextureMat;
 uniform int FogShape;
 
 uniform vec3 Light0_Direction;
@@ -23,17 +24,22 @@ uniform vec3 Light1_Direction;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec4 vertexShading;
+out vec4 lightMapColor;
 out vec4 overlayColor;
 out vec2 texCoord0;
-out vec4 normal;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
     vertexDistance = fog_distance(Position, FogShape);
     vertexColor = Color;
-	vertexShading = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, vec4(1.0, 1.0, 1.0, 1.0)) * texelFetch(Sampler2, UV2 / 16, 0);
+	vertexShading = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, vec4(1.0,1.0,1.0,1.0)) * texelFetch(Sampler2, UV2 / 16, 0);
+	
+    lightMapColor = texelFetch(Sampler2, UV2 / 16, 0);
     overlayColor = texelFetch(Sampler1, UV1, 0);
-    texCoord0 = UV0;
-    normal = ProjMat * ModelViewMat * vec4(Normal, 0.0);
+	
+	texCoord0 = UV0;
+#ifdef APPLY_TEXTURE_MATRIX
+    texCoord0 = (TextureMat * vec4(UV0, 0.0, 1.0)).xy;
+#endif
 }

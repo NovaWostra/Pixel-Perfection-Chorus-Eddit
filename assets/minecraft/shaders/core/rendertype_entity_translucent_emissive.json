@@ -1,22 +1,19 @@
 {
-    "blend": {
-        "func": "add",
-        "srcrgb": "srcalpha",
-        "dstrgb": "1-srcalpha"
+    "vertex": "minecraft:core/entity",
+    "fragment": "minecraft:core/entity",
+    "defines": {
+        "values": {
+            "ALPHA_CUTOUT": "0.1"
+        },
+        "flags": [
+            "EMISSIVE",
+			"NO_CARDINAL_LIGHTING"
+        ]
     },
-    "vertex": "rendertype_entity_translucent_emissive",
-    "fragment": "rendertype_entity_translucent_emissive",
-    "attributes": [
-        "Position",
-        "Color",
-        "UV0",
-        "UV1",
-        "UV2",
-        "Normal"
-    ],
     "samplers": [
         { "name": "Sampler0" },
-        { "name": "Sampler1" }
+        { "name": "Sampler1" },
+        { "name": "Sampler2" }
     ],
     "uniforms": [
         { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
