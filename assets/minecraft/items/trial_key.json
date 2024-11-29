@@ -1,0 +1,76 @@
+{
+	"model": {
+	  "type": "minecraft:range_dispatch",
+	  "property": "minecraft:custom_model_data",
+	  "entries": [
+		{
+		  "threshold": 711,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/shrine_key"
+		  }
+		},
+		{
+		  "threshold": 712,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/creeper_key"
+		  }
+		},
+		{
+		  "threshold": 713,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/citadel_key"
+		  }
+		},
+		{
+		  "threshold": 715,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/monument_key"
+		  }
+		},
+		{
+		  "threshold": 717,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/donjon_key"
+		  }
+		},
+		{
+		  "threshold": 718,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/outstation_key"
+		  }
+		},
+		{
+		  "threshold": 719,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/nether_key"
+		  }
+		},
+		{
+		  "threshold": 721,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/end_castle_key"
+		  }
+		},
+		{
+		  "threshold": 722,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/toxic_key"
+		  }
+		}
+	  ],
+	  "fallback": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/trial_key"
+	  }
+	}
+  }
+  

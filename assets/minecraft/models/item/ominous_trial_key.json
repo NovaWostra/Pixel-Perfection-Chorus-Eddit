@@ -72,44 +72,6 @@
 		  0.5
 		]
 	  }
-	},
-	"overrides": [
-	  {
-		"predicate": {
-		  "custom_model_data": 711
-		},
-		"model": "minecraft:item/keys/ominous_shrine_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 712
-		},
-		"model": "minecraft:item/keys/ominous_toxic_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 714
-		},
-		"model": "minecraft:item/keys/citadel_boss_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 716
-		},
-		"model": "minecraft:item/keys/monument_boss_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 720
-		},
-		"model": "minecraft:item/keys/end_ship_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 723
-		},
-		"model": "minecraft:item/keys/toxic_boss_key"
-	  }
-	]
+	}
   }
   

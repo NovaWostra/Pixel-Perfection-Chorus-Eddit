@@ -1,0 +1,55 @@
+{
+	"model": {
+	  "type": "minecraft:range_dispatch",
+	  "property": "minecraft:custom_model_data",
+	  "entries": [
+		{
+		  "threshold": 711,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/ominous_shrine_key"
+		  }
+		},
+		{
+		  "threshold": 712,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/ominous_toxic_key"
+		  }
+		},
+		{
+		  "threshold": 714,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/citadel_boss_key"
+		  }
+		},
+		{
+		  "threshold": 716,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/monument_boss_key"
+		  }
+		},
+		{
+		  "threshold": 720,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/end_ship_key"
+		  }
+		},
+		{
+		  "threshold": 723,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/keys/toxic_boss_key"
+		  }
+		}
+	  ],
+	  "fallback": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/ominous_trial_key"
+	  }
+	}
+  }
+  

@@ -72,62 +72,6 @@
 		  0.5
 		]
 	  }
-	},
-	"overrides": [
-	  {
-		"predicate": {
-		  "custom_model_data": 711
-		},
-		"model": "minecraft:item/keys/shrine_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 712
-		},
-		"model": "minecraft:item/keys/creeper_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 713
-		},
-		"model": "minecraft:item/keys/citadel_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 715
-		},
-		"model": "minecraft:item/keys/monument_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 717
-		},
-		"model": "minecraft:item/keys/donjon_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 718
-		},
-		"model": "minecraft:item/keys/outstation_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 719
-		},
-		"model": "minecraft:item/keys/nether_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 721
-		},
-		"model": "minecraft:item/keys/end_castle_key"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 722
-		},
-		"model": "minecraft:item/keys/toxic_key"
-	  }
-	]
+	}
   }
   
