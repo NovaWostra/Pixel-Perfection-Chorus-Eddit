@@ -3,13 +3,14 @@
 	"parent": "minecraft:block/cross",
 	"textures": {
 		"0": "block/warped_fungus_block",
+		"1": "block/warped_fungus_block_e",
 		"particle": "block/warped_fungus_block"
 	},
 	"elements": [
 		{
 			"from": [6, 0, 8],
 			"to": [8, 4, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 8]},
 			"faces": {
 				"north": {"uv": [8, 0, 10, 4], "texture": "#0"},
 				"east": {"uv": [8, 0, 10, 4], "texture": "#0"},
@@ -22,6 +23,7 @@
 		{
 			"from": [3, 4, 5],
 			"to": [11, 7, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, 0]},
 			"faces": {
 				"north": {"uv": [0, 8, 8, 11], "texture": "#0"},
 				"east": {"uv": [0, 8, 8, 11], "texture": "#0"},
@@ -30,6 +32,20 @@
 				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
 				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
 			}
+		},
+		{
+			"from": [3, 4, 5],
+			"to": [11, 7, 13],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"east": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#1"}
+			}
 		}
 	],
 	"groups": [
@@ -37,7 +53,16 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1]
+			"children": [
+				0,
+				1,
+				{
+					"name": "group",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [2]
+				}
+			]
 		}
 	]
 }

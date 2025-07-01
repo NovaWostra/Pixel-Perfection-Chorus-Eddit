@@ -1,23 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"2": "block/brewing_stand_base_e",
+		"3": "block/brewing_stand_e",
 		"base": "block/brewing_stand_base",
 		"particle": "block/brewing_stand",
 		"stand": "block/brewing_stand"
 	},
 	"elements": [
-		{
-			"from": [7, 0, 7],
-			"to": [9, 14, 9],
-			"faces": {
-				"north": {"uv": [7, 2, 9, 16], "texture": "#stand"},
-				"east": {"uv": [7, 2, 9, 16], "texture": "#stand"},
-				"south": {"uv": [7, 2, 9, 16], "texture": "#stand"},
-				"west": {"uv": [7, 2, 9, 16], "texture": "#stand"},
-				"up": {"uv": [7, 2, 9, 4], "texture": "#stand"},
-				"down": {"uv": [7, 7, 9, 9], "texture": "#stand"}
-			}
-		},
 		{
 			"from": [9, 0, 5],
 			"to": [15, 2, 11],
@@ -43,6 +33,18 @@
 			}
 		},
 		{
+			"from": [7, 0, 7],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [7, 2, 9, 16], "texture": "#stand"},
+				"east": {"uv": [7, 2, 9, 16], "texture": "#stand"},
+				"south": {"uv": [7, 2, 9, 16], "texture": "#stand"},
+				"west": {"uv": [7, 2, 9, 16], "texture": "#stand"},
+				"up": {"uv": [7, 2, 9, 4], "texture": "#stand"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#stand"}
+			}
+		},
+		{
 			"from": [2, 0, 9],
 			"to": [8, 2, 15],
 			"faces": {
@@ -53,6 +55,72 @@
 				"up": {"uv": [2, 9, 8, 15], "texture": "#base"},
 				"down": {"uv": [2, 9, 8, 15], "texture": "#base", "cullface": "down"}
 			}
+		},
+		{
+			"from": [9, 0, 5],
+			"to": [15, 2, 11],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [9, 14, 15, 16], "texture": "#2"},
+				"east": {"uv": [5, 14, 11, 16], "texture": "#2"},
+				"south": {"uv": [9, 14, 15, 16], "texture": "#2"},
+				"west": {"uv": [5, 14, 11, 16], "texture": "#2"},
+				"up": {"uv": [9, 5, 15, 11], "texture": "#2"},
+				"down": {"uv": [9, 5, 15, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0, 1],
+			"to": [8, 2, 7],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [2, 14, 8, 16], "texture": "#2"},
+				"east": {"uv": [1, 14, 7, 16], "texture": "#2"},
+				"south": {"uv": [2, 14, 8, 16], "texture": "#2"},
+				"west": {"uv": [1, 14, 7, 16], "texture": "#2"},
+				"up": {"uv": [2, 1, 8, 7], "texture": "#2"},
+				"down": {"uv": [2, 1, 8, 7], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 14, 9],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"east": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"south": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"west": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"up": {"uv": [7, 2, 9, 4], "texture": "#3"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#3"}
+			}
+		},
+		{
+			"from": [2, 0, 9],
+			"to": [8, 2, 15],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [2, 14, 8, 16], "texture": "#2"},
+				"east": {"uv": [9, 14, 15, 16], "texture": "#2"},
+				"south": {"uv": [2, 14, 8, 16], "texture": "#2"},
+				"west": {"uv": [9, 14, 15, 16], "texture": "#2"},
+				"up": {"uv": [2, 9, 8, 15], "texture": "#2"},
+				"down": {"uv": [2, 9, 8, 15], "texture": "#2", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "emissive",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [4, 5, 6, 7]
 		}
 	]
 }

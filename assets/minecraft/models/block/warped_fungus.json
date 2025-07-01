@@ -3,6 +3,7 @@
 	"parent": "minecraft:block/cross",
 	"textures": {
 		"0": "block/warped_fungus_block",
+		"1": "block/warped_fungus_block_e",
 		"particle": "block/warped_fungus_block"
 	},
 	"elements": [
@@ -30,6 +31,19 @@
 				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
 				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
 			}
+		},
+		{
+			"from": [5, 4, 5],
+			"to": [13, 7, 13],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"east": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#1"}
+			}
 		}
 	],
 	"groups": [
@@ -38,6 +52,12 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [0, 1]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2]
 		}
 	]
 }

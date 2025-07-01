@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-        "bottom": "block/spawner",
-        "top": "block/spawner",
-        "side": "block/spawner_side"
-    }
-}

@@ -31,10 +31,10 @@
       "model": "minecraft:block/trial_spawner_ominous"
     },
     "ominous=true,trial_spawner_state=waiting_for_players": {
-      "model": "minecraft:block/trial_spawner_charged_ominous"
+      "model": "minecraft:block/trial_spawner_waiting_ominous"
     },
     "ominous=true,trial_spawner_state=waiting_for_reward_ejection": {
-      "model": "minecraft:block/trial_spawner_waiting_ominous"
+      "model": "minecraft:block/trial_spawner_charged_ominous"
     }
   }
 }

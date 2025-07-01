@@ -3,13 +3,14 @@
 	"parent": "minecraft:block/cross",
 	"textures": {
 		"0": "block/crimson_fungus_block",
+		"1": "block/crimson_fungus_block_e",
 		"particle": "block/crimson_fungus_block"
 	},
 	"elements": [
 		{
 			"from": [8, 0, 6],
 			"to": [10, 4, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 6]},
 			"faces": {
 				"north": {"uv": [8, 0, 10, 4], "texture": "#0"},
 				"east": {"uv": [8, 0, 10, 4], "texture": "#0"},
@@ -22,6 +23,7 @@
 		{
 			"from": [5, 4, 3],
 			"to": [13, 7, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -2]},
 			"faces": {
 				"north": {"uv": [0, 8, 8, 11], "texture": "#0"},
 				"east": {"uv": [0, 8, 8, 11], "texture": "#0"},
@@ -34,6 +36,7 @@
 		{
 			"from": [6, 7, 4],
 			"to": [12, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -2]},
 			"faces": {
 				"north": {"uv": [10, 13, 16, 16], "texture": "#0"},
 				"east": {"uv": [10, 13, 16, 16], "texture": "#0"},
@@ -42,6 +45,34 @@
 				"up": {"uv": [10, 7, 16, 13], "texture": "#0"},
 				"down": {"uv": [10, 7, 16, 13], "texture": "#0"}
 			}
+		},
+		{
+			"from": [5, 4, 3],
+			"to": [13, 7, 11],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -2]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"east": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 7, 4],
+			"to": [12, 10, 10],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -2]},
+			"faces": {
+				"north": {"uv": [10, 13, 16, 16], "texture": "#1"},
+				"east": {"uv": [10, 13, 16, 16], "texture": "#1"},
+				"south": {"uv": [10, 13, 16, 16], "texture": "#1"},
+				"west": {"uv": [10, 13, 16, 16], "texture": "#1"},
+				"up": {"uv": [10, 7, 16, 13], "texture": "#1"},
+				"down": {"uv": [10, 7, 16, 13], "texture": "#1"}
+			}
 		}
 	],
 	"groups": [
@@ -49,7 +80,17 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1, 2]
+			"children": [
+				0,
+				1,
+				2,
+				{
+					"name": "group",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [3, 4]
+				}
+			]
 		}
 	]
 }
