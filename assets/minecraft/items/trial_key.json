@@ -7,63 +7,91 @@
 		  "threshold": 711,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/shrine_key"
+			"model": "dnt:item/keys/shrine_key"
 		  }
 		},
 		{
 		  "threshold": 712,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/creeper_key"
+			"model": "dnt:item/keys/creeper_key"
 		  }
 		},
 		{
 		  "threshold": 713,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/citadel_key"
+			"model": "dnt:item/keys/citadel_key"
 		  }
 		},
 		{
 		  "threshold": 715,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/monument_key"
+			"model": "dnt:item/keys/monument_key"
 		  }
 		},
 		{
 		  "threshold": 717,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/donjon_key"
+			"model": "dnt:item/keys/donjon_key"
 		  }
 		},
 		{
 		  "threshold": 718,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/outstation_key"
+			"model": "dnt:item/keys/outstation_key"
 		  }
 		},
 		{
 		  "threshold": 719,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/nether_key"
+			"model": "dnt:item/keys/nether_key"
 		  }
 		},
 		{
 		  "threshold": 721,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/end_castle_key"
+			"model": "dnt:item/keys/end_castle_key"
 		  }
 		},
 		{
 		  "threshold": 722,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/toxic_key"
+			"model": "dnt:item/keys/toxic_key"
+		  }
+		},
+		{
+		  "threshold": 724,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/cave_chamber_key"
+		  }
+		},
+		{
+		  "threshold": 725,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/sealing_key"
+		  }
+		},
+		{
+		  "threshold": 728,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/nether_port_key"
+		  }
+		},
+		{
+		  "threshold": 729,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/hamlet_key"
 		  }
 		}
 	  ],

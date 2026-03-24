@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/end_portal_glow",
+		"particle": "block/obsidian"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 18, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 10, 16, 15], "texture": "#1"},
+				"east": {"uv": [0, 10, 16, 15], "texture": "#1"},
+				"south": {"uv": [0, 10, 16, 15], "texture": "#1"},
+				"west": {"uv": [0, 10, 16, 15], "texture": "#1"}
+			}
+		},
+		{
+			"from": [16, 18, 16],
+			"to": [0, 13, 0],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 5, 16]},
+			"faces": {
+				"north": {"uv": [0, 15, 16, 10], "texture": "#1"},
+				"east": {"uv": [0, 15, 16, 10], "texture": "#1"},
+				"south": {"uv": [0, 15, 16, 10], "texture": "#1"},
+				"west": {"uv": [0, 15, 16, 10], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [16, 5, 16],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

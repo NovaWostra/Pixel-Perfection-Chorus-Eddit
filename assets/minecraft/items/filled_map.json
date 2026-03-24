@@ -1,0 +1,56 @@
+{
+	"model": {
+	  "type": "minecraft:select",
+	  "property": "minecraft:custom_model_data",
+	  "cases": [
+		{
+		  "when": "dnt:chart",
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/chart",
+			"tints": [
+			  {
+				"type": "minecraft:constant",
+				"value": -1
+			  },
+			  {
+				"type": "minecraft:map_color",
+				"default": 4603950
+			  }
+			]
+		  }
+		},
+		{
+			"when": "dnt:folded_chart",
+			"model": {
+			  "type": "minecraft:model",
+			  "model": "dnt:item/folded_chart",
+			  "tints": [
+				{
+				  "type": "minecraft:constant",
+				  "value": -1
+				},
+				{
+				  "type": "minecraft:map_color",
+				  "default": 4603950
+				}
+			  ]
+			}
+		  }
+	  ],
+	  "fallback": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/filled_map",
+		"tints": [
+		  {
+			"type": "minecraft:constant",
+			"value": -1
+		  },
+		  {
+			"type": "minecraft:map_color",
+			"default": 4603950
+		  }
+		]
+	  }
+	}
+  }

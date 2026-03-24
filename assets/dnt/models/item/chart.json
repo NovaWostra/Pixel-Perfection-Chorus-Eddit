@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "dnt:item/chart",
+      "layer1": "dnt:item/chart_ribbon"
+    }
+  }

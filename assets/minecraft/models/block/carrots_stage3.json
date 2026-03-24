@@ -1,10 +1,11 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/crop",
 	"textures": {
 		"1": "block/carrots_stage3_vegitable",
-		"crop": "block/carrots_stage3",
-		"particle": "block/carrots_stage3_vegitable"
+		"particle": "block/carrots_stage3_vegitable",
+		"crop": "block/carrots_stage3"
 	},
 	"elements": [
 		{
@@ -13,11 +14,7 @@
 			"shade": false,
 			"faces": {
 				"north": {"uv": [16, 0, 0, 16], "texture": "#crop"},
-				"east": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#crop"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#crop"}
+				"south": {"uv": [0, 0, 16, 16], "texture": "#crop"}
 			}
 		},
 		{
@@ -26,11 +23,7 @@
 			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#crop"},
-				"east": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#crop"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#crop"}
+				"south": {"uv": [16, 0, 0, 16], "texture": "#crop"}
 			}
 		},
 		{
@@ -38,12 +31,8 @@
 			"to": [12, 15, 16],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#crop"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"west": {"uv": [16, 0, 0, 16], "texture": "#crop"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#crop"}
+				"west": {"uv": [16, 0, 0, 16], "texture": "#crop"}
 			}
 		},
 		{
@@ -51,12 +40,8 @@
 			"to": [4, 15, 16],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#crop"},
 				"east": {"uv": [16, 0, 0, 16], "texture": "#crop"},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#crop"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#crop"}
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"}
 			}
 		},
 		{

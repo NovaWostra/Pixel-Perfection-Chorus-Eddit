@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/detector_rail_on_e",
+		"particle": "block/detector_rail_on",
+		"rail": "block/detector_rail_on"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#rail"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#rail"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0.25, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 0, -0.25],
+			"to": [4, 1, 16.25],
+			"faces": {
+				"north": {"uv": [12, 15, 14, 16], "texture": "#rail"},
+				"east": {"uv": [3, 15, 4, 16], "texture": "#rail"},
+				"south": {"uv": [2, 15, 4, 16], "texture": "#rail"},
+				"west": {"uv": [3, 15, 4, 16], "texture": "#rail"},
+				"up": {"uv": [2, 0, 4, 16], "texture": "#rail"},
+				"down": {"uv": [2, 0, 4, 16], "texture": "#rail"}
+			}
+		},
+		{
+			"from": [12, 0, -0.25],
+			"to": [14, 1, 16.25],
+			"faces": {
+				"north": {"uv": [2, 15, 4, 16], "texture": "#rail"},
+				"east": {"uv": [3, 15, 4, 16], "texture": "#rail"},
+				"south": {"uv": [12, 15, 14, 16], "texture": "#rail"},
+				"west": {"uv": [3, 15, 4, 16], "texture": "#rail"},
+				"up": {"uv": [12, 0, 14, 16], "texture": "#rail"},
+				"down": {"uv": [12, 0, 14, 16], "texture": "#rail"}
+			}
+		}
+	],
+	"__createdwith": "opl's Model Maker"
+}

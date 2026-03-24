@@ -7,42 +7,56 @@
 		  "threshold": 711,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/ominous_shrine_key"
+			"model": "dnt:item/keys/ominous_shrine_key"
 		  }
 		},
 		{
 		  "threshold": 712,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/ominous_toxic_key"
+			"model": "dnt:item/keys/ominous_toxic_key"
 		  }
 		},
 		{
 		  "threshold": 714,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/citadel_boss_key"
+			"model": "dnt:item/keys/citadel_boss_key"
 		  }
 		},
 		{
 		  "threshold": 716,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/monument_boss_key"
+			"model": "dnt:item/keys/monument_boss_key"
 		  }
 		},
 		{
 		  "threshold": 720,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/end_ship_key"
+			"model": "dnt:item/keys/end_ship_key"
 		  }
 		},
 		{
 		  "threshold": 723,
 		  "model": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/keys/toxic_boss_key"
+			"model": "dnt:item/keys/toxic_boss_key"
+		  }
+		},
+		{
+		  "threshold": 726,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/ominous_sealing_key"
+		  }
+		},
+		{
+		  "threshold": 727,
+		  "model": {
+			"type": "minecraft:model",
+			"model": "dnt:item/keys/boss_sealing_key"
 		  }
 		}
 	  ],

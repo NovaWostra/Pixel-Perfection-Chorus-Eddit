@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/trial_key",
+  "textures": {
+    "layer0": "dnt:item/keys/cave_chamber_key"
+  }
+}

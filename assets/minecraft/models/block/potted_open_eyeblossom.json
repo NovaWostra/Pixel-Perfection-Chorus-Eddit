@@ -1,7 +1,9 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
+		"3": "block/open_eyeblossom_e",
 		"particle": "block/flower_pot",
 		"flowerpot": "block/flower_pot",
 		"dirt": "block/dirt",
@@ -105,6 +107,17 @@
 			}
 		},
 		{
+			"from": [2.6, 4, 8],
+			"to": [13.4, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0}
+			}
+		},
+		{
 			"from": [8, 4, 2.6],
 			"to": [8, 16, 13.4],
 			"shade": false,
@@ -118,11 +131,23 @@
 			"from": [2.6, 4, 8],
 			"to": [13.4, 16, 8],
 			"shade": false,
+			"light_emission": 15,
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
-				"east": {"uv": [0, 0, 0, 0], "texture": "#plant"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 4, 2.6],
+			"to": [8, 16, 13.4],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0}
 			}
 		}
 	]

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/ominous_trial_key",
+  "textures": {
+    "layer0": "dnt:item/keys/end_ship_key"
+  }
+}
