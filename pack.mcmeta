@@ -1,7 +1,7 @@
 {
   "pack": {
-	"min_format": [84,0],
-	"max_format": [84,0],
+	"min_format": [88,0],
+	"max_format": [88,0],
     "description": "XSSheep\u0027s and Nova Wostra\u0027s Pixel Perfection."
   },
     "overlays": {

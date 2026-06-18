@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/jack_o_lantern_e",
+		"2": "block/pumpkin_top",
+		"3": "block/jack_o_lantern",
+		"particle": "block/pumpkin_side",
+		"north": "block/pumpkin_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [16, 0, 16, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 16, 16, 16], "texture": "#missing"}
+			}
+		}
+	]
+}

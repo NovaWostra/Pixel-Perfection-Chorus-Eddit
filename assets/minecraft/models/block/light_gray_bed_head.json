@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/template_bed",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "block/light_gray_bed",
+		"particle": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 0],
+			"to": [16, 9, 16],
+			"faces": {
+				"north": {"uv": [1.5, 0, 5.5, 1.5], "rotation": 180, "texture": "#0", "cullface": "north"},
+				"east": {"uv": [7, 5.5, 5.5, 1.5], "rotation": 270, "texture": "#0", "cullface": "east"},
+				"west": {"uv": [1.5, 5.5, 0, 1.5], "rotation": 90, "texture": "#0", "cullface": "west"},
+				"up": {"uv": [1.5, 1.5, 5.5, 5.5], "texture": "#0"},
+				"down": {"uv": [7, 1.5, 11, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 9, 0],
+			"to": [16, 14, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 0]},
+			"faces": {
+				"north": {"uv": [7, 11.25, 11, 12.75], "rotation": 180, "texture": "#0", "cullface": "north"},
+				"south": {"uv": [7, 11.25, 11, 12.75], "texture": "#0"},
+				"up": {"uv": [7, 11.25, 11, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [2, 16, 2],
+			"faces": {
+				"north": {"uv": [13, 9.25, 13.5, 13.25], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [13.5, 9.25, 14, 13.25], "texture": "#0"},
+				"south": {"uv": [14, 9.25, 14.5, 13.25], "texture": "#0"},
+				"west": {"uv": [12.5, 9.25, 13, 13.25], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [13, 8.75, 13.5, 9.25], "texture": "#0"},
+				"down": {"uv": [13.5, 8.75, 14, 9.25], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [14, 0, 0],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [13, 9.25, 13.5, 13.25], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [13.5, 9.25, 14, 13.25], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 9.25, 14.5, 13.25], "texture": "#0"},
+				"west": {"uv": [12.5, 9.25, 13, 13.25], "texture": "#0"},
+				"up": {"uv": [13, 8.75, 13.5, 9.25], "texture": "#0"},
+				"down": {"uv": [13.5, 8.75, 14, 9.25], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

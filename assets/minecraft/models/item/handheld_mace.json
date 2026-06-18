@@ -155,6 +155,7 @@
 		{
 			"from": [7, 0, 7],
 			"to": [9, 11, 9],
+			"shade": false,
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 5.5, 8]},
 			"faces": {
@@ -170,6 +171,7 @@
 			"name": "heavy_core",
 			"from": [5, 10.5, 5],
 			"to": [11, 16.5, 11],
+			"shade": false,
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 14.5, 7.5]},
 			"faces": {
@@ -184,6 +186,7 @@
 		{
 			"from": [6.5, 16, 6.5],
 			"to": [9.5, 17, 9.5],
+			"shade": false,
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 14.5, 7.5]},
 			"faces": {
@@ -198,6 +201,7 @@
 		{
 			"from": [6.5, 10, 6.5],
 			"to": [9.5, 11, 9.5],
+			"shade": false,
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 14.5, 7.5]},
 			"faces": {
@@ -244,28 +248,33 @@
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "hand_held",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [0]
 				},
 				{
 					"name": "mace_heavy_core",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "group",
 							"origin": [0, 0, 0],
+							"scope": 0,
 							"color": 0,
 							"children": [1, 2, 3, 4]
 						},
 						{
 							"name": "group",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [5, 6, 7, 8]
 						},
@@ -278,17 +287,20 @@
 		{
 			"name": "emissive",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "hand_held",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [11]
 				},
 				{
 					"name": "mace_heavy_core",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [12, 13, 14]
 				}

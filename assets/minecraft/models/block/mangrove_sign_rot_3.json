@@ -1,0 +1,48 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"all": "block/sign_mangrove",
+		"particle": "block/mangrove_planks"
+	},
+	"elements": [
+		{
+			"from": [7.33333, 0, 7.33333],
+			"to": [8.66667, 9.33333, 8.66667],
+			"rotation": {"x": 0, "y": -67.5, "z": 0, "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [12.5, 5.5, 13, 10], "texture": "#all"},
+				"east": {"uv": [12, 5.5, 12.5, 10], "texture": "#all"},
+				"south": {"uv": [13.5, 5.5, 14, 10], "texture": "#all"},
+				"west": {"uv": [13, 5.5, 13.5, 10], "texture": "#all"},
+				"up": {"uv": [12.5, 5, 13, 5.5], "texture": "#all"},
+				"down": {"uv": [13, 5, 13.5, 5.5], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 9.33333, 7.33333],
+			"to": [16, 17.33333, 8.66667],
+			"rotation": {"x": 0, "y": -67.5, "z": 0, "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 9, 5], "texture": "#all"},
+				"east": {"uv": [9, 1, 9.5, 5], "texture": "#all"},
+				"south": {"uv": [1, 6, 9, 10], "texture": "#all"},
+				"west": {"uv": [0.5, 1, 1, 5], "texture": "#all"},
+				"up": {"uv": [1, 5, 9, 5.5], "texture": "#all"},
+				"down": {"uv": [1, 0.5, 9, 1], "texture": "#all"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
