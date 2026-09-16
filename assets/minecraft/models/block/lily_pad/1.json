@@ -18,7 +18,7 @@
 			"from": [10, 0, 5],
 			"to": [10, 5, 13],
 			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
-			"shade": false,
+			"shade_direction_override": "up",
 			"faces": {
 				"west": {"uv": [4, 10, 12, 15],"texture": "#flower"},
 				"east": {"uv": [4, 10, 12, 15],"texture": "#flower"}
@@ -28,7 +28,7 @@
 			"from": [6, 0, 9],
 			"to": [14, 5, 9],
 			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
-			"shade": false,
+			"shade_direction_override": "up",
 			"faces": {
 				"north": {"uv": [4, 10, 12, 15],"texture": "#flower"},
 				"south": {"uv": [4, 10, 12, 15],"texture": "#flower"}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/poplar_planks" },
+			{ "model": "block/planks/poplar/1" },
+			{ "model": "block/planks/poplar/2" }
+		]
+    }
+}

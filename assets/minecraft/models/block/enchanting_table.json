@@ -25,7 +25,7 @@
 		{
 			"from": [0, 0, 0],
 			"to": [16, 12, 16],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 8,
 			"faces": {
 				"north": {"uv": [0, 4, 16, 16], "texture": "#3", "cullface": "north"},

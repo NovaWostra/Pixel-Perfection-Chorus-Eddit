@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/poplar_slab" },
+			{ "model": "block/planks/poplar/slab/l1" },
+			{ "model": "block/planks/poplar/slab/l2" }
+		],
+        "type=top": [
+			{ "model": "block/poplar_slab_top" },
+			{ "model": "block/planks/poplar/slab/u1" },
+			{ "model": "block/planks/poplar/slab/u2" }		
+		],
+		"type=double": [
+			{ "model": "block/poplar_planks" },
+			{ "model": "block/planks/poplar/1" },
+			{ "model": "block/planks/poplar/2" }
+		]
+    }
+}

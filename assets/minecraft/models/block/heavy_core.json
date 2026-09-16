@@ -130,7 +130,7 @@
 		{
 			"from": [7, 7.01, 7],
 			"to": [9, 8.01, 9],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"faces": {
 				"north": {"uv": [2, 14, 6, 15], "texture": "#all"},
@@ -144,7 +144,7 @@
 		{
 			"from": [7, -0.01, 7],
 			"to": [9, 0.99, 9],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"faces": {
 				"north": {"uv": [2, 14, 6, 15], "texture": "#all"},
@@ -159,7 +159,7 @@
 			"name": "heavy_core",
 			"from": [5, 1, 5],
 			"to": [11, 7, 11],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"faces": {
 				"north": {"uv": [9, 9, 15, 15], "texture": "#1"},

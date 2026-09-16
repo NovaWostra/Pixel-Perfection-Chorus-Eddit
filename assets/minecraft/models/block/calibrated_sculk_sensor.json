@@ -62,7 +62,7 @@
 		{
 			"from": [6, 8, 6],
 			"to": [10, 16, 10],
-			"shade": false,
+			"shade_direction_override": "up",
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8], "rescale": true},
 			"faces": {
 				"north": {"uv": [4, 2, 0, 8], "texture": "#amethyst"},

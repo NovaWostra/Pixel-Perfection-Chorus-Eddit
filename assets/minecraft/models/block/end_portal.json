@@ -9,7 +9,7 @@
 		{
 			"from": [0, 13, 0],
 			"to": [16, 18, 16],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"faces": {
 				"north": {"uv": [0, 10, 16, 15], "texture": "#1"},
@@ -21,7 +21,7 @@
 		{
 			"from": [16, 18, 16],
 			"to": [0, 13, 0],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, 5, 16]},
 			"faces": {
